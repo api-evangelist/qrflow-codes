@@ -1,4 +1,4 @@
-# qrflow-codes
+# QRFLOW.codes
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-qrflow-codes is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://qrflow.codes/
+QRFLOW.codes provides a free QR code generator with dynamic, editable QR codes, premium plans starting at $4/month, and business features including API access, custom domains, and bulk generation. Based in Las Vegas, the service targets small businesses, events, and marketers seeking affordable, customizable QR solutions.
+
+**Areas:** QR code · Free tool · Dynamic QR · API · SaaS
+
+## QRFLOW.codes on APIs.io
+
+Everything profiled for QRFLOW.codes is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/qrflow-codes/](https://apis.io/providers/qrflow-codes/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [QRFLOW.codes Account API](https://apis.io/apis/qrflow-codes/qrflow-codes-account-api/) — The account API from QRFLOW.codes — 1 operation(s) for account.
+- [QRFLOW.codes Analytics API](https://apis.io/apis/qrflow-codes/qrflow-codes-analytics-api/) — The analytics API from QRFLOW.codes — 1 operation(s) for analytics.
+- [QRFLOW.codes Catalog API](https://apis.io/apis/qrflow-codes/qrflow-codes-catalog-api/) — The catalog API from QRFLOW.codes — 2 operation(s) for catalog.
+- [QRFLOW.codes Codes API](https://apis.io/apis/qrflow-codes/qrflow-codes-codes-api/) — The codes API from QRFLOW.codes — 6 operation(s) for codes.
+- [QRFLOW.codes Domains API](https://apis.io/apis/qrflow-codes/qrflow-codes-domains-api/) — The domains API from QRFLOW.codes — 1 operation(s) for domains.
+- [QRFLOW.codes Products API](https://apis.io/apis/qrflow-codes/qrflow-codes-products-api/) — GS1 Digital Link product codes for retail packaging. Business plan.
+- [QRFLOW.codes Webhooks API](https://apis.io/apis/qrflow-codes/qrflow-codes-webhooks-api/) — The webhooks API from QRFLOW.codes — 2 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [QRFLOW.codes Agentic Access](https://apis.io/agentic-access/qrflow-codes/qrflow-codes-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Code](https://apis.io/schemas/qrflow-codes/qrflow-codes-code/)
+- [CreateCode](https://apis.io/schemas/qrflow-codes/qrflow-codes-create-code/)
+- [Product](https://apis.io/schemas/qrflow-codes/qrflow-codes-product/)
+- [ProductScans](https://apis.io/schemas/qrflow-codes/qrflow-codes-product-scans/)
+- [SetProductLink](https://apis.io/schemas/qrflow-codes/qrflow-codes-set-product-link/)
+- [UpdateCode](https://apis.io/schemas/qrflow-codes/qrflow-codes-update-code/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Qrflow Codes Context](https://apis.io/jsonld/qrflow-codes/qrflow-codes-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [QRFLOW.codes API Rules](https://apis.io/rules/qrflow-codes/qrflow-codes-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [QRFLOW.codes Authentication](https://apis.io/security/qrflow-codes/qrflow-codes-authentication/)
+- [QRFLOW.codes Domain Security](https://apis.io/security/qrflow-codes/qrflow-codes-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [QRFLOW.codes Scopes](https://apis.io/scopes/qrflow-codes/qrflow-codes-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://qrflow.codes/)
+- [Documentation](https://qrflow.codes/developers)
+- [Pricing](https://qrflow.codes/pricing)
+- [Blog](https://qrflow.codes/blog)
+- [Terms of service](https://qrflow.codes/terms)
+- [Privacy policy](https://qrflow.codes/privacy)
+
+## API Evangelist rating
+
+**Kin Score 43.3** — developing · rubric 0.28.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 57.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 25.5 |
+
+**Agent readiness 51.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/qrflow-codes/](https://apis.io/providers/qrflow-codes/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for QRFLOW.codes: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/qrflow-codes/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
